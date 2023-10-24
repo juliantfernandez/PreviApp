@@ -45,7 +45,7 @@ let reto = [
 "recrear y subir la primera historia que se te aparezca",
 "un shot por cada persona que te responda la historia dentro de los próximos 10 minutos (subir foto del reto xd)",
 "los demas participantes deciden el reto",
-"pegadito pegadito de ahora en mas todos tienen que acomodarse bien pegados entre si(si ya estaban asi juga un verdad)",
+"pegaditos de ahora en mas todos tienen que acomodarse bien pegados entre si(si ya estaban asi juga un verdad)",
 "hielo de boca en boca con el/la de la derecha", 
 "beso al mas ebrio",
 "hacele masajes durante 1 ronda al jugador de tu izquierda",
