@@ -1,15 +1,15 @@
 let text = document.getElementById('random')
 
 let verdad = [
-"Cuantas veces te pajeas a la semana",
+"Cuantas veces te pajeas a la semana?",
 "Conta una anécdota vergonzosa con alguno de los presentes",
-"Le darías a alguien de la ronda",
-"A quien cagarias a trompadas de la ronda ", 
-"Quien es cornudo y no lo sabe ",
-"Superaste a tu ex",
-"Fuiste infiel",
-"Tres mentiras una verdad",
-"Cuánto fue el máximo tiempo que estuviste sin bañarte",
+"Le darías a alguien de la ronda?",
+"A quien cagarias a trompadas de la ronda?", 
+"Quien es cornudo y no lo sabe?",
+"Superaste a tu ex?",
+"Fuiste infiel?",
+"Tres mentiras, una verdad",
+"Cuánto fue el máximo tiempo que estuviste sin bañarte?",
 "Estarias con el/la ex de un amigo/a?",
 "Con cuantas personas tuviste relaciones sexuales?",
 "Pagarias por sexo?",
