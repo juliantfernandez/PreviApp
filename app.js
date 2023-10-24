@@ -1,6 +1,5 @@
 let text = document.getElementById('random')
 
-
 let verdad = [
 "cuantas veces te pajeas a la semana",
 "conta una anécdota vergonzosa con alguno de los presentes",
@@ -33,44 +32,45 @@ let verdad = [
 "cual fue el lugar mas insolito en donde te masturbaste?",
 "perdonarias una infidelidad?",
 "cojer matar casar con los de la ronda"]
+
+let reto = [
+    "escribirle a tu ex (cuentan chongos)",
+    "responderle una historia a la primera persona que se te aparezca",
+    "recrear y subir la primera historia que se te aparezca",
+    "un shot por cada persona que te responda la historia dentro de los próximos 10 minutos (subir foto del reto xd)",
+    "los demas participantes deciden el reto",
+    "pegaditos de ahora en mas todos tienen que acomodarse bien pegados entre si(si ya estaban asi juga un verdad)",
+    "hielo de boca en boca con el/la de la derecha", 
+    "beso al mas ebrio",
+    "hacele masajes durante 1 ronda al jugador de tu izquierda",
+    "juga al menos 5 rondas tomado/a de la mano con el jugador de tu derecha",
+    "publica una story diciendo 'sale una birrita? quien se suma?' ",
+    "ponete a dar catedra de como hacer un buen pete",
+    "pico al jugador mas lejos que tengas",
+    "pico al de enfrente",
+    "pulseada con el de la derecha, el que pierde toma",
+    "intercambia vaso con el de la izq",
+    "fondo a tu trago",
+    "tus vecinos toma (izq y derecha)",
+    "botellita (onda girar una botella y darle un beso a quien salga)",
+    "pico a todos",
+    "intercambia una prenda con el de tu derecha",
+    "vos y el jugador que tengas enfrente deciden un reto para los demas jugadores",
+    "sentante encima del jugador que tengas enfrente por 2 rondas",
+    "simulen situacion de boliche y encara a algun jugador. dibuje troesmaa",
+    "subi una historia diciendo que estas embarazada",
+    "llama a la mamá de alguno de los presentes para pedirle su mano",
+    "empeza una ronda pasando un cubito de hielo hasta que vuelva a vos",
+    "mandale un te extraño a alguno de tus exs",
+    "storytime de tu peor vez teniendo relaciones", 
+    "storytime de como fuiste infiel o como te fueron infiel", 
+    "storytime de como te friendzonearon"]
+
 function randomVerdad(){
     const generateRandomVerdad = Math.floor(Math.random() * verdad.length);
     const randomVerdadB = verdad[generateRandomVerdad]
     return text.textContent = randomVerdadB
 }
-
-let reto = [
-"escribirle a tu ex (cuentan chongos)",
-"responderle una historia a la primera persona que se te aparezca",
-"recrear y subir la primera historia que se te aparezca",
-"un shot por cada persona que te responda la historia dentro de los próximos 10 minutos (subir foto del reto xd)",
-"los demas participantes deciden el reto",
-"pegaditos de ahora en mas todos tienen que acomodarse bien pegados entre si(si ya estaban asi juga un verdad)",
-"hielo de boca en boca con el/la de la derecha", 
-"beso al mas ebrio",
-"hacele masajes durante 1 ronda al jugador de tu izquierda",
-"juga al menos 5 rondas tomado/a de la mano con el jugador de tu derecha",
-"publica una story diciendo 'sale una birrita? quien se suma?' ",
-"ponete a dar catedra de como hacer un buen pete",
-"pico al jugador mas lejos que tengas",
-"pico al de enfrente",
-"pulseada con el de la derecha, el que pierde toma",
-"intercambia vaso con el de la izq",
-"fondo a tu trago",
-"tus vecinos toma (izq y derecha)",
-"botellita (onda girar una botella y darle un beso a quien salga)",
-"pico a todos",
-"intercambia una prenda con el de tu derecha",
-"vos y el jugador que tengas enfrente deciden un reto para los demas jugadores",
-"sentante encima del jugador que tengas enfrente por 2 rondas",
-"simulen situacion de boliche y encara a algun jugador. dibuje troesmaa",
-"subi una historia diciendo que estas embarazada",
-"llama a la mamá de alguno de los presentes para pedirle su mano",
-"empeza una ronda pasando un cubito de hielo hasta que vuelva a vos",
-"mandale un te extraño a alguno de tus exs",
-"storytime de tu peor vez teniendo relaciones", 
-"storytime de como fuiste infiel o como te fueron infiel", 
-"storytime de como te friendzonearon"]
 function randomReto(){
   
     const generateRandomReto = Math.floor(Math.random() * reto.length);
