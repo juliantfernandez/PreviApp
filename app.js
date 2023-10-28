@@ -31,13 +31,41 @@ let verdad = [
 "Boliche o previa eterna? fundamentá",
 "Cual fue el lugar mas insolito en donde te masturbaste?",
 "Perdonarias una infidelidad?",
-"Cojer matar casar con los de la ronda"]
+"Cojer matar casar con los de la ronda", "¿Cuándo fue la última vez que mentiste?",
+"¿Qué es lo peor que has hecho en el trabajo?",
+"¿Cuándo fue la última vez que lloraste?",
+"¿Y la última vez que te reíste?",
+"¿Alguna vez te has hecho pis encima por reírte demasiado?",
+"¿Cuál es tu mayor miedo?",
+"¿Cuál es tu mayor fantasía?",
+"¿Tienes algún fetiche?",
+"¿Quién es la última persona que has buscado en Instagram?",
+"¿Y lo último que has buscado en Google?",
+"¿Cuál fue la última enfermedad que has tenido?",
+"¿Quién es la última persona que te ha seguido en Instagram?",
+"¿Alguna vez has escrito a un famoso por Instagram?",
+"¿Qué es lo que te alegra que tu familia no sepa de ti?",
+"¿Has engañado alguna vez a alguien?",
+"¿Te arrepientes de haberte acostado con alguien?",
+"¿Cuál es el lugar más extraño en el que has orinado?",
+"¿Qué es lo peor que has hecho?",
+"¿Qué es lo más extraño que has comido?",
+"¿Cuál es tu problema en las relaciones?",
+"¿Cuál es el secreto que nunca le has contado a nadie?",
+"¿Tienes algún talento oculto?",
+"¿Quién fue tu primer amor 'celebrity'?",
+"¿Qué opinas del poliamor?",
+"¿Cuál es la peor experiencia íntima que has tenido?",
+"¿Cuál es la mejor experiencia íntima que has tenido?",
+"¿Has copiado alguna vez en un examen?",
+"Si fueras a participar en un 'reality show', ¿cuál sería?",
+"¿Cuál es la mayor borrachera que has tenido?"]
 
 let reto = [
     "Escribirle a tu ex (cuentan chongos)",
     "Responderle una historia a la primera persona que se te aparezca",
     "Recrear y subir la primera historia que se te aparezca",
-    "Un shot por cada persona que te responda la historia dentro de los próximos 10 minutos (subir foto del reto xd)",
+    "Un shot por cada persona que te responda la historia dentro de los próximos 10 minutos (subir foto del reto)",
     "Los demas participantes deciden el reto",
     "Pegaditos de ahora en mas todos tienen que acomodarse bien pegados entre si(si ya estaban asi juga un verdad)",
     "Hielo de boca en boca con el/la de la derecha", 
@@ -65,7 +93,8 @@ let reto = [
     "Storytime de tu peor vez teniendo relaciones", 
     "Storytime de como fuiste infiel o como te fueron infiel", 
     "Storytime de como te friendzonearon",
-"Decir el nombre de la o las personas que te comerías/ le darías un beso presentes en la previa"]
+"Decir el nombre de la o las personas que te comerías/ le darías un beso presentes en la previa", 
+"Tomar un shot de vodka."]
 
 function randomVerdad(){
     const generateRandomVerdad = Math.floor(Math.random() * verdad.length);
